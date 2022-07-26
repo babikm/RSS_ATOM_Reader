@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ServiceInstaller", "ServiceInstaller\ServiceInstaller.vdproj", "{40D06B96-FB4B-4172-A39E-7F73C11E87DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudService", "..\CrudService\CrudService\CrudService.csproj", "{E73C855D-298D-4704-BB88-20A1771B2881}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40D06B96-FB4B-4172-A39E-7F73C11E87DC}.Debug|Any CPU.ActiveCfg = Debug
+		{40D06B96-FB4B-4172-A39E-7F73C11E87DC}.Debug|Any CPU.Build.0 = Debug
+		{40D06B96-FB4B-4172-A39E-7F73C11E87DC}.Release|Any CPU.ActiveCfg = Release
+		{40D06B96-FB4B-4172-A39E-7F73C11E87DC}.Release|Any CPU.Build.0 = Release
+		{E73C855D-298D-4704-BB88-20A1771B2881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73C855D-298D-4704-BB88-20A1771B2881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73C855D-298D-4704-BB88-20A1771B2881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73C855D-298D-4704-BB88-20A1771B2881}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04CD6DBA-0048-4E99-9507-3AA00A62602B}
+	EndGlobalSection
+EndGlobal
